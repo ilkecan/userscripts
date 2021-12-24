@@ -9,5 +9,5 @@
 // ==/UserScript==
 
 $(document).ready(() => {
-    $("#Sifre").removeAttr("maxlength");
+    $("#password").removeAttr("maxlength");
 });
