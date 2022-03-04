@@ -1,13 +1,14 @@
 // ==UserScript==
-// @name        redirect githubmate to github
+// @name        redirect github{mate,memory} to github
 // @namespace   ilkecan
 // @match       http*://githubmate.com/*
+// @match       http*://githubmemory.com/*
 // @grant       none
 // @icon        https://cdn.jsdelivr.net/gh/JeffreyBool/githubmemory-cdn@26.0/images/favicon.ico
 // @run-at      document-start
 // @version     0.1.0
 // @author      ilkecan
-// @description redirect githubmate to github
+// @description redirect github{mate,memory} to github
 // ==/UserScript==
 
 "use strict";
