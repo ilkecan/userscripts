@@ -1,6 +1,7 @@
 // ==UserScript==
-// @name        redirect github{mate,memory} to github
+// @name        redirect githubmemory to github
 // @namespace   ilkecan
+// @match       http*://githubhot.com/*
 // @match       http*://githubmate.com/*
 // @match       http*://githubmemory.com/*
 // @grant       none
@@ -8,7 +9,7 @@
 // @run-at      document-start
 // @version     0.1.0
 // @author      ilkecan
-// @description redirect github{mate,memory} to github
+// @description redirect github{hot,mate,memory} to github
 // ==/UserScript==
 
 "use strict";
